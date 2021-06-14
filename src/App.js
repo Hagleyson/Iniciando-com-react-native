@@ -3,9 +3,11 @@ import {View, Text, StyleSheet} from 'react-native';
 import Primeiro from './components/Primeiro';
 import Comp3, {Comp1, Comp2} from './components/Multi';
 import MinMax from './components/M-max';
+import Aleatorio from './components/DesafioAleatorio';
 export default function App() {
   return (
     <View style={style.App}>
+      <Aleatorio min={10} max={20} />
       <MinMax x={35} y={10} />
       {/* <Comp1 />
       <Comp2 />
