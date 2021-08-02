@@ -14,11 +14,14 @@ import {Text, StyleSheet, SafeAreaView} from 'react-native';
 // import Membro from './components/relacao/Membro';
 //import UsuarioLogado from './components/UsuarioLogado';
 // import ListaProdutos from './components/produtos/ListaProdutos';
-import ListaProdutosv2 from './components/produtos/ListaProdutosV2';
+// import ListaProdutosv2 from './components/produtos/ListaProdutosV2';
+import DigiteSeuNome from './components/DigiteSeuNome';
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
-      <ListaProdutosv2 />
+      <DigiteSeuNome />
+      {/* <ListaProdutosv2 /> */}
+      {/* <ListaProdutos /> */}
       {/* <UsuarioLogado
         usuario={{nome: 'Hagleyson', email: 'Hagleyson@gmail.com'}}
       />
