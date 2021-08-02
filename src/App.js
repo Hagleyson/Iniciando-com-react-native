@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text, StyleSheet, SafeAreaView} from 'react-native';
+
 // import Primeiro from './components/Primeiro';
 // import Comp3, {Comp1, Comp2} from './components/Multi';
 // import MinMax from './components/M-max';
@@ -15,11 +16,18 @@ import {Text, StyleSheet, SafeAreaView} from 'react-native';
 //import UsuarioLogado from './components/UsuarioLogado';
 // import ListaProdutos from './components/produtos/ListaProdutos';
 // import ListaProdutosv2 from './components/produtos/ListaProdutosV2';
-import DigiteSeuNome from './components/DigiteSeuNome';
+// import DigiteSeuNome from './components/DigiteSeuNome';
+// import FlexboxV1 from './components/layout/FlexboxV1';
+// import FlexboxV2 from './components/layout/FlexboxV2';
+// import FlexboxV3 from './components/layout/FlexboxV3';
+import FlexboxV4 from './components/layout/FlexboxV4';
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
-      <DigiteSeuNome />
+      <FlexboxV4 />
+      {/* <FlexboxV3 /> */}
+      {/* <FlexboxV2 /> */}
+      {/* <DigiteSeuNome /> */}
       {/* <ListaProdutosv2 /> */}
       {/* <ListaProdutos /> */}
       {/* <UsuarioLogado
